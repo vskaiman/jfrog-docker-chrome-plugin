@@ -1,0 +1,1 @@
+# jfrog-docker-chrome-plugin
