@@ -63,8 +63,3 @@ function getValueOfParametersWidget(fieldName) {
 	    return elements[i+1].innerText;
   }
 }
-
-function sleep(ms) {
-  ms += new Date().getTime();
-  while (new Date() < ms){}
-}
