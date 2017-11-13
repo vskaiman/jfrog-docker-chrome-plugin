@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "JFrog copy docker image url",
+	"version": "0.1",
+	"description": "Post processing plugin for generating copy action on docker tag name.",
+	"author": "Vsevolod Kaimashnikov",
+	"icons": {
+		"16": "icons/icon16.png",
+		"48": "icons/icon48.png",
+		"128": "icons/icon128.png"
+	},
+	"content_scripts": [{
+		"matches": ["jfrog-url/*"],
+		"js": ["js/main.js"]
+	}]
+}
